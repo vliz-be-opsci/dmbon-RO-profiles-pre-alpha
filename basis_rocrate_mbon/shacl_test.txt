@@ -20,7 +20,7 @@ schema:PersonShape
     ] ;
     sh:property [
         sh:path schema:gender ;
-        sh:in ( "female" "male" "apache helicopter" "spineless fluid" "transgendah") ;
+        sh:in ( "female" "male" "other" ) ;
         sh:minCount 1 ;
     ] ;
     sh:property [

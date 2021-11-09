@@ -1,0 +1,29 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2021-11-03T18:04:04.531904",
+            "hasPart": [
+                {
+                    "@id": "image_shacl_contraints.ttl"
+                }
+            ]
+        },
+        {
+            "@id": "image_shacl_contraints.ttl",
+            "@type": "File"
+        }
+    ]
+}
