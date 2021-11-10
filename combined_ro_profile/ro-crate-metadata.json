@@ -17,8 +17,26 @@
             "datePublished": "2021-11-03T18:04:04.531904",
             "hasPart": [
                 {
-                    "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/basis_rocrate_mbon/ro-crate-metadata.json"
+                    "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/basis_rocrate_mbon/"
                 },
+                {
+                    "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/more_specific_profile/"
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/basis_rocrate_mbon/",
+            "@type": "Dataset",
+            "subjectOf": [
+                {
+                    "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/basis_rocrate_mbon/ro-crate-metadata.json"
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/more_specific_profile/",
+            "@type": "Dataset",
+            "subjectOf": [
                 {
                     "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/more_specific_profile/ro-crate-metadata.json"
                 }
