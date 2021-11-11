@@ -17,12 +17,12 @@
             "datePublished": "2021-11-03T18:04:04.531904",
             "hasPart": [
                 {
-                    "@id": "shacl_test.txt"
+                    "@id": "shacl_test.ttl"
                 }
             ]
         },
         {
-            "@id": "shacl_test.txt",
+            "@id": "shacl_test.ttl",
             "@type": "File"
         }
     ]
