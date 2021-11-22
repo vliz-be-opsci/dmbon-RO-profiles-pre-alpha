@@ -18,4 +18,4 @@ schema:ImageShape
         sh:in ( "top" "bottom" "species" "other" ) ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
-    ] ;
+    ] .
