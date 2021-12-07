@@ -6,7 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 schema:PersonShape
     a sh:NodeShape ;
-    sh:targetClass schema:Person ;
+    sh:targetClass schema:File ;
     sh:property [
         sh:path schema:givenName ;
         sh:datatype xsd:string ;
