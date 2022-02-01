@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2021-11-03T18:04:04.531904",
+            "hasPart": [
+                {
+                    "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/test_profile/"
+                },
+                {
+                    "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/more_specific_profile/"
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/test_profile/",
+            "@type": "Dataset",
+            "subjectOf": [
+                {
+                    "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/test_profile/ro-crate-metadata.json"
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/more_specific_profile/",
+            "@type": "Dataset",
+            "subjectOf": [
+                {
+                    "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/more_specific_profile/ro-crate-metadata.json"
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/test_profile/ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "https://github.com/vliz-be-opsci/RO-profiles/blob/main/more_specific_profile/ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        }
+    ]
+}
